@@ -1,4 +1,4 @@
-let ShoutcastAPI = new require('../')
+let ShoutcastAPI = require('../')
 let api = new ShoutcastAPI(process.argv[2], 'json')
 
 api.getTop500Stations({
