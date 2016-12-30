@@ -7,7 +7,7 @@ If you want to see how the Node.js API actually works just check this file: http
 
 A small example:
 ```javascript
-let ShoutcastAPI = new require('node-shoutcast-api')
+let ShoutcastAPI = require('node-shoutcast-api')
 let api = new ShoutcastAPI(your_api_key, 'json')
 
 api.getStationsByGenre({
